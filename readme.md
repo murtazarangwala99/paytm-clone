@@ -9,6 +9,8 @@
 
 - Learning Tailwind CSS and build the Paytm Clone
 
+- It Takes 24hours to complete this Project.
+
 ## Live Link of the Project:
 
 [Live Project Link](https://mk-paytm.netlify.app/)
