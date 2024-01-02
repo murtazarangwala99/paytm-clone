@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "![Project](https://img.shields.io/badge/Project-16-brightgreen)\r ![](https://img.shields.io/badge/HTML-TailwindCSS-yellowgreen)",
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",
