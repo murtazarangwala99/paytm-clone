@@ -4,29 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          screens: {
-            sm: "640px",
-            md: "768px",
-            lg: "1024px",
-            xl: "1280px",
-          },
-          extend: {
-            colors: {
-              myblack: "#0D0D0D",
-              skyblue: "#00BAF2",
-              myblue: "#2bc9f8",
-              blue: "#0F4A8A",
-              blue2: "#225ea0",
-              mywhite: "#F5F7FA",
-            },
-          },
-        },
-      };
-    </script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="main.css" />
     <title>Paytm | Clone</title>
   </head>
   <body>
@@ -55,15 +34,12 @@
       </ul>
       <!-- Nav Button -->
       <div>
-        <button
-          class="hover:bg-blue px-3 py-1 font-semibold rounded-full bg-skyblue"
-        >
+        <button class="hover:bg-blue px-3 py-1 font-semibold rounded-full bg-skyblue">
           Sign up
           <img
             src="./img/img2.svg"
             alt="user"
-            class="inline w-7 x-2 bg-blue rounded-full hover:bg-skyblue hover:rounded-full"
-          />
+            class="inline w-7 x-2 bg-blue rounded-full hover:bg-skyblue hover:rounded-full" />
         </button>
       </div>
     </nav>
@@ -74,13 +50,10 @@
       </h2>
     </div>
     <!-- India's Most-loved Payments App -->
-    <div
-      class="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center"
-    >
+    <div class="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center">
       <!-- Left Section -->
       <div
-        class="lg:flex-grow lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
-      >
+        class="lg:flex-grow lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <img src="./img/img3.png" alt="paytm-upi" class="w-20" />
         <h1 class="mt-10 text-4xl md:text-5xl md:font-bold mb-4 text-gray-800">
           India's Most-loved <br />Payments App
@@ -92,8 +65,7 @@
         </p>
         <div>
           <button
-            class="ml-0 inline-flex text-white bg-myblack py-2 px-4 rounded-full text-lg"
-          >
+            class="ml-0 inline-flex text-white bg-myblack py-2 px-4 rounded-full text-lg">
             Download Paytm App
             <span class="ml-2 mt-2">
               <a
@@ -105,12 +77,10 @@
                   height="16"
                   viewBox="0 0 14 16"
                   fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
+                  xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M11.6593 15.3557C10.7589 16.1979 9.76546 16.0666 8.81854 15.6695C7.81182 15.2644 6.89149 15.2388 5.82828 15.6695C4.50426 16.2203 3.80155 16.0602 3.00415 15.3557C-1.49786 10.8883 -0.833353 4.08311 4.28331 3.82691C5.52427 3.89096 6.39311 4.48821 7.12406 4.53785C8.21052 4.32489 9.25047 3.71483 10.4133 3.79489C11.8105 3.90377 12.8554 4.43538 13.5531 5.3913C10.6791 7.05657 11.3603 10.7073 14 11.7321C13.4717 13.0691 12.7939 14.3902 11.6576 15.3669L11.6593 15.3557ZM7.02439 3.77888C6.88982 1.79336 8.55939 0.160122 10.4798 0C10.7439 2.28974 8.32017 4.00305 7.02439 3.77888Z"
-                    fill="white"
-                  ></path></svg
+                    fill="white"></path></svg
               ></a>
             </span>
             <span class="ml-2 mt-2">
@@ -122,14 +92,12 @@
                   height="16"
                   viewBox="0 0 14 16"
                   fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
+                  xmlns="http://www.w3.org/2000/svg">
                   <path
                     fill-rule="evenodd"
                     clip-rule="evenodd"
                     d="M0.088012 0.571735C0.0310801 0.726729 0 0.910797 0 1.121V14.8786C0 15.0894 0.0311427 15.2736 0.0881839 15.4286L7.32808 7.9997L0.088012 0.571735ZM0.590122 15.9564C0.85223 16.0466 1.18264 15.9995 1.54068 15.7912L10.0736 10.8165L7.83627 8.52109L0.590122 15.9564ZM10.7221 10.4391L13.3647 8.8987C14.2118 8.40415 14.2118 7.59609 13.3647 7.10217L10.7211 5.561L8.34443 7.99966L10.7221 10.4391ZM10.073 5.18317L1.54068 0.209061C1.18252 0.000250885 0.852017 -0.0466058 0.589868 0.0438429L7.83624 7.47828L10.073 5.18317Z"
-                    fill="white"
-                  ></path></svg
+                    fill="white"></path></svg
               ></a>
             </span>
           </button>
@@ -142,17 +110,13 @@
     </div>
     <!-- Recharge & Pay Bills on Paytm. -->
     <div class="bg-sky-500 text-white p-1">
-      <h2 class="container m-auto text-4xl font-semibold">
-        Recharge & Pay Bills on Paytm.
-      </h2>
+      <h2 class="container m-auto text-4xl font-semibold">Recharge & Pay Bills on Paytm.</h2>
       <div class="sm:mx-28 grid gap-4 my-16 grid-cols-3 lg:grid-cols-7">
         <!-- Card 1 -->
         <div
-          class="flex h-40 w-32 flex-col space-y-4 rounded-md hover:bg-myblue hover:cursor-pointer"
-        >
+          class="flex h-40 w-32 flex-col space-y-4 rounded-md hover:bg-myblue hover:cursor-pointer">
           <div
-            class="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full"
-          >
+            class="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full">
             <img src="./img/img5.png" alt="" />
           </div>
           <p>Recharge</p>
@@ -164,11 +128,9 @@
         </div>
         <!-- Card 2-->
         <div
-          class="flex flex-col p-2 space-y-4 rounded-md hover:bg-myblue h-40 w-32 hover:cursor-pointer"
-        >
+          class="flex flex-col p-2 space-y-4 rounded-md hover:bg-myblue h-40 w-32 hover:cursor-pointer">
           <div
-            class="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full"
-          >
+            class="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full">
             <img src="./img/img6.png" alt="" />
           </div>
           <p>Pay</p>
@@ -180,11 +142,9 @@
         </div>
         <!-- Card 3 -->
         <div
-          class="flex flex-col p-2 space-y-4 rounded-md hover:bg-myblue h-40 w-32 hover:cursor-pointer"
-        >
+          class="flex flex-col p-2 space-y-4 rounded-md hover:bg-myblue h-40 w-32 hover:cursor-pointer">
           <div
-            class="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full"
-          >
+            class="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full">
             <img src="./img/img7.png" alt="" />
           </div>
           <p>Pay</p>
@@ -196,11 +156,9 @@
         </div>
         <!-- Card 4 -->
         <div
-          class="flex flex-col p-2 space-y-4 rounded-md hover:bg-myblue h-40 w-32 hover:cursor-pointer"
-        >
+          class="flex flex-col p-2 space-y-4 rounded-md hover:bg-myblue h-40 w-32 hover:cursor-pointer">
           <div
-            class="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full"
-          >
+            class="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full">
             <img src="./img/img8.png" alt="" />
           </div>
           <p>Recharge</p>
@@ -211,11 +169,9 @@
         </div>
         <!-- Card 5  -->
         <div
-          class="flex flex-col p-2 space-y-4 rounded-md hover:bg-myblue h-40 w-32 hover:cursor-pointer"
-        >
+          class="flex flex-col p-2 space-y-4 rounded-md hover:bg-myblue h-40 w-32 hover:cursor-pointer">
           <div
-            class="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full"
-          >
+            class="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full">
             <img src="./img/img9.png" alt="" />
           </div>
           <p>Book</p>
@@ -226,11 +182,9 @@
         </div>
         <!-- Card 6  -->
         <div
-          class="flex flex-col p-2 space-y-4 rounded-md hover:bg-myblue h-40 w-32 hover:cursor-pointer"
-        >
+          class="flex flex-col p-2 space-y-4 rounded-md hover:bg-myblue h-40 w-32 hover:cursor-pointer">
           <div
-            class="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full"
-          >
+            class="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full">
             <img src="./img/img10.png" alt="" />
           </div>
           <p>Pay</p>
@@ -241,11 +195,9 @@
         </div>
         <!-- Card 7 -->
         <div
-          class="flex flex-col p-2 space-y-4 rounded-md hover:bg-myblue h-40 w-32 hover:cursor-pointer"
-        >
+          class="flex flex-col p-2 space-y-4 rounded-md hover:bg-myblue h-40 w-32 hover:cursor-pointer">
           <div
-            class="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full"
-          >
+            class="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full">
             <img src="./img/img11.png" alt="" />
           </div>
           <p>All</p>
@@ -263,11 +215,9 @@
         <div class="grid gap-4 my-16 grid-cols-3 lg:grid-cols-7">
           <!-- Card 1 -->
           <div
-            class="flex flex-col p-2 space-y-4 rounded-md hover:bg-blue2 h-40 w-32 hover:cursor-pointer"
-          >
+            class="flex flex-col p-2 space-y-4 rounded-md hover:bg-blue2 h-40 w-32 hover:cursor-pointer">
             <div
-              class="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full"
-            >
+              class="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full">
               <img src="./img/img12.png" alt="" />
             </div>
             <p class="text-base font-semibold">
@@ -277,11 +227,9 @@
           </div>
           <!-- Card 2  -->
           <div
-            class="flex flex-col p-2 space-y-4 rounded-md hover:bg-blue2 h-40 w-32 hover:cursor-pointer"
-          >
+            class="flex flex-col p-2 space-y-4 rounded-md hover:bg-blue2 h-40 w-32 hover:cursor-pointer">
             <div
-              class="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full"
-            >
+              class="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full">
               <img src="./img/img13.png" alt="" />
             </div>
             <p class="text-base font-semibold">
@@ -291,11 +239,9 @@
           </div>
           <!--  Card 3 -->
           <div
-            class="flex flex-col p-2 space-y-4 rounded-md hover:bg-blue2 h-40 w-32 hover:cursor-pointer"
-          >
+            class="flex flex-col p-2 space-y-4 rounded-md hover:bg-blue2 h-40 w-32 hover:cursor-pointer">
             <div
-              class="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full"
-            >
+              class="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full">
               <img src="./img/img14.png" alt="" />
             </div>
             <p class="text-base font-semibold">
@@ -305,11 +251,9 @@
           </div>
           <!--  Card 4  -->
           <div
-            class="flex flex-col p-2 space-y-4 rounded-md hover:bg-blue2 h-40 w-32 hover:cursor-pointer"
-          >
+            class="flex flex-col p-2 space-y-4 rounded-md hover:bg-blue2 h-40 w-32 hover:cursor-pointer">
             <div
-              class="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full"
-            >
+              class="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full">
               <img src="./img/img15.png" alt="" />
             </div>
             <p class="text-base font-semibold">
@@ -319,11 +263,9 @@
           </div>
           <!-- Card 5 -->
           <div
-            class="flex flex-col p-2 space-y-4 rounded-md hover:bg-blue2 h-40 w-32 hover:cursor-pointer"
-          >
+            class="flex flex-col p-2 space-y-4 rounded-md hover:bg-blue2 h-40 w-32 hover:cursor-pointer">
             <div
-              class="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full"
-            >
+              class="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full">
               <img src="./img/img16.png" alt="" />
             </div>
             <p class="text-base font-semibold">
@@ -333,11 +275,9 @@
           </div>
           <!-- Card 6-->
           <div
-            class="flex flex-col p-2 space-y-4 rounded-md hover:bg-blue2 h-40 w-32 hover:cursor-pointer"
-          >
+            class="flex flex-col p-2 space-y-4 rounded-md hover:bg-blue2 h-40 w-32 hover:cursor-pointer">
             <div
-              class="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full"
-            >
+              class="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full">
               <img src="./img/img17.png" alt="" />
             </div>
             <p class="text-base font-semibold">
@@ -349,11 +289,9 @@
           <!-- Card 7 -->
 
           <div
-            class="flex flex-col p-2 space-y-4 rounded-md hover:bg-blue2 h-40 w-32 hover:cursor-pointer"
-          >
+            class="flex flex-col p-2 space-y-4 rounded-md hover:bg-blue2 h-40 w-32 hover:cursor-pointer">
             <div
-              class="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full"
-            >
+              class="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full">
               <img src="./img/img18.webp" alt="" />
             </div>
             <p class="text-base font-semibold">
@@ -372,15 +310,11 @@
       </div>
       <!-- Left Div -->
       <div
-        class="container lg:pl-24 px-4 flex-col items-center mx-auto flex py-16 md:flex-row"
-      >
+        class="container lg:pl-24 px-4 flex-col items-center mx-auto flex py-16 md:flex-row">
         <div
-          class="md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
-        >
+          class="md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <img src="./img/img19.png" alt="image" class="w-20" />
-          <h1
-            class="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900 mt-12"
-          >
+          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900 mt-12">
             The Fastest Way to <br />
             Pay In-store & Online.
           </h1>
@@ -390,8 +324,7 @@
           </p>
           <div class="flex justify-center">
             <button
-              class="ml-0 inline-flex text-white bg-myblack py-2 px-6 rounded-full text-lg"
-            >
+              class="ml-0 inline-flex text-white bg-myblack py-2 px-6 rounded-full text-lg">
               Download the App
               <span class="ml-2 mt-2">
                 <a
@@ -403,12 +336,10 @@
                     height="16"
                     viewBox="0 0 14 16"
                     fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                    xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M11.6593 15.3557C10.7589 16.1979 9.76546 16.0666 8.81854 15.6695C7.81182 15.2644 6.89149 15.2388 5.82828 15.6695C4.50426 16.2203 3.80155 16.0602 3.00415 15.3557C-1.49786 10.8883 -0.833353 4.08311 4.28331 3.82691C5.52427 3.89096 6.39311 4.48821 7.12406 4.53785C8.21052 4.32489 9.25047 3.71483 10.4133 3.79489C11.8105 3.90377 12.8554 4.43538 13.5531 5.3913C10.6791 7.05657 11.3603 10.7073 14 11.7321C13.4717 13.0691 12.7939 14.3902 11.6576 15.3669L11.6593 15.3557ZM7.02439 3.77888C6.88982 1.79336 8.55939 0.160122 10.4798 0C10.7439 2.28974 8.32017 4.00305 7.02439 3.77888Z"
-                      fill="white"
-                    ></path></svg
+                      fill="white"></path></svg
                 ></a>
               </span>
               <span class="ml-2 mt-2">
@@ -421,14 +352,12 @@
                     height="16"
                     viewBox="0 0 14 16"
                     fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                    xmlns="http://www.w3.org/2000/svg">
                     <path
                       fill-rule="evenodd"
                       clip-rule="evenodd"
                       d="M0.088012 0.571735C0.0310801 0.726729 0 0.910797 0 1.121V14.8786C0 15.0894 0.0311427 15.2736 0.0881839 15.4286L7.32808 7.9997L0.088012 0.571735ZM0.590122 15.9564C0.85223 16.0466 1.18264 15.9995 1.54068 15.7912L10.0736 10.8165L7.83627 8.52109L0.590122 15.9564ZM10.7221 10.4391L13.3647 8.8987C14.2118 8.40415 14.2118 7.59609 13.3647 7.10217L10.7211 5.561L8.34443 7.99966L10.7221 10.4391ZM10.073 5.18317L1.54068 0.209061C1.18252 0.000250885 0.852017 -0.0466058 0.589868 0.0438429L7.83624 7.47828L10.073 5.18317Z"
-                      fill="white"
-                    ></path></svg
+                      fill="white"></path></svg
                 ></a>
               </span>
             </button>
@@ -436,25 +365,16 @@
         </div>
         <!-- Img Div -->
         <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img
-            class="object-cover object-center"
-            alt="hero"
-            src="./img/img20.webp"
-          />
+          <img class="object-cover object-center" alt="hero" src="./img/img20.webp" />
         </div>
       </div>
     </div>
     <!-- Pay anyone directly from your bank account. -->
-    <div
-      class="container lg:pl-24 px-4 flex-col items-center mx-auto flex py-16 md:flex-row"
-    >
+    <div class="container lg:pl-24 px-4 flex-col items-center mx-auto flex py-16 md:flex-row">
       <div
-        class="md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
-      >
+        class="md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <img src="./img/img21.png" alt="image" class="w-20" />
-        <h1
-          class="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900 mt-12"
-        >
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900 mt-12">
           Pay anyone directly <br />
           from your bank <br />
           account.
@@ -467,8 +387,7 @@
         </p>
         <div class="flex justify-center">
           <button
-            class="ml-0 inline-flex text-white bg-myblack py-2 px-6 rounded-full text-lg"
-          >
+            class="ml-0 inline-flex text-white bg-myblack py-2 px-6 rounded-full text-lg">
             Download the App
             <span class="ml-2 mt-2">
               <a
@@ -480,12 +399,10 @@
                   height="16"
                   viewBox="0 0 14 16"
                   fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
+                  xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M11.6593 15.3557C10.7589 16.1979 9.76546 16.0666 8.81854 15.6695C7.81182 15.2644 6.89149 15.2388 5.82828 15.6695C4.50426 16.2203 3.80155 16.0602 3.00415 15.3557C-1.49786 10.8883 -0.833353 4.08311 4.28331 3.82691C5.52427 3.89096 6.39311 4.48821 7.12406 4.53785C8.21052 4.32489 9.25047 3.71483 10.4133 3.79489C11.8105 3.90377 12.8554 4.43538 13.5531 5.3913C10.6791 7.05657 11.3603 10.7073 14 11.7321C13.4717 13.0691 12.7939 14.3902 11.6576 15.3669L11.6593 15.3557ZM7.02439 3.77888C6.88982 1.79336 8.55939 0.160122 10.4798 0C10.7439 2.28974 8.32017 4.00305 7.02439 3.77888Z"
-                    fill="white"
-                  ></path></svg
+                    fill="white"></path></svg
               ></a>
             </span>
             <span class="ml-2 mt-2">
@@ -498,14 +415,12 @@
                   height="16"
                   viewBox="0 0 14 16"
                   fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
+                  xmlns="http://www.w3.org/2000/svg">
                   <path
                     fill-rule="evenodd"
                     clip-rule="evenodd"
                     d="M0.088012 0.571735C0.0310801 0.726729 0 0.910797 0 1.121V14.8786C0 15.0894 0.0311427 15.2736 0.0881839 15.4286L7.32808 7.9997L0.088012 0.571735ZM0.590122 15.9564C0.85223 16.0466 1.18264 15.9995 1.54068 15.7912L10.0736 10.8165L7.83627 8.52109L0.590122 15.9564ZM10.7221 10.4391L13.3647 8.8987C14.2118 8.40415 14.2118 7.59609 13.3647 7.10217L10.7211 5.561L8.34443 7.99966L10.7221 10.4391ZM10.073 5.18317L1.54068 0.209061C1.18252 0.000250885 0.852017 -0.0466058 0.589868 0.0438429L7.83624 7.47828L10.073 5.18317Z"
-                    fill="white"
-                  ></path></svg
+                    fill="white"></path></svg
               ></a>
             </span>
           </button>
@@ -513,24 +428,15 @@
       </div>
       <!-- Img Div -->
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-        <img
-          class="object-cover object-center"
-          alt="hero"
-          src="./img/img22.webp"
-        />
+        <img class="object-cover object-center" alt="hero" src="./img/img22.webp" />
       </div>
     </div>
     <!-- Want it? No more waiting for it. -->
-    <div
-      class="container lg:pl-24 flex-col items-center mx-auto flex px-4 py-16 md:flex-row"
-    >
+    <div class="container lg:pl-24 flex-col items-center mx-auto flex px-4 py-16 md:flex-row">
       <div
-        class="md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
-      >
+        class="md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <img src="./img/img23.webp" alt="image" class="w-36" />
-        <h1
-          class="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900 mt-12"
-        >
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900 mt-12">
           Want it? <br />
           No more waiting for it.
         </h1>
@@ -541,32 +447,22 @@
         </p>
         <div class="flex justify-center">
           <button
-            class="ml-0 inline-flex text-white bg-indigo-900 py-3 px-7 rounded-full text-lg"
-          >
+            class="ml-0 inline-flex text-white bg-indigo-900 py-3 px-7 rounded-full text-lg">
             Learn More
-            <span
-              ><img class="w-4 mt-2 ml-2" src="./img/arrow-right.png" alt=""
-            /></span>
+            <span><img class="w-4 mt-2 ml-2" src="./img/arrow-right.png" alt="" /></span>
           </button>
         </div>
       </div>
       <!-- Img Div -->
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-        <img
-          class="object-cover object-center"
-          alt="hero"
-          src="./img/img24.webp"
-        />
+        <img class="object-cover object-center" alt="hero" src="./img/img24.webp" />
       </div>
     </div>
     <!-- HDFC And SBI Card Offer -->
-    <div
-      class="container mx-auto flex items-center flex-col px-6 py-20 md:flex-row"
-    >
+    <div class="container mx-auto flex items-center flex-col px-6 py-20 md:flex-row">
       <!-- HDFC Credit Card Div-->
       <div
-        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
-      >
+        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <img src="./img/img25.png" alt="image" class="w-52" />
         <h1 class="sm:text-4xl text-3xl mb-4 font-bold mt-12">
           India's Most <br />Sincere Credit Card
@@ -581,16 +477,15 @@
       </div>
       <!-- SBI Credit Card  Div-->
       <div
-        class="lg:flex-grow md:w-1/2 m1-12 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
-      >
+        class="lg:flex-grow md:w-1/2 m1-12 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <img src="./img/img27.png" alt="image" class="w-52" />
         <h1 class="sm:text-4xl text-3xl mb-4 font-bold mt-12">
           Unlimited Cashback <br />
           Every time
         </h1>
         <p class="mb-8 leading-relaxed font-semibold text-xl">
-          Paytm HDFC Bank Select Credit Card. A Card with assured Cashback and
-          incredible offers
+          Paytm HDFC Bank Select Credit Card. A Card with assured Cashback and incredible
+          offers
         </p>
         <div class="flex justify-center">
           <img src="./img/img28.webp" alt="image" />
@@ -599,20 +494,14 @@
     </div>
     <!-- Financial Services by Paytm -->
     <div
-      class="mt-10 container mx-auto flex px-5 py-24 md:flex-row flex-col items-center bg-white"
-    >
+      class="mt-10 container mx-auto flex px-5 py-24 md:flex-row flex-col items-center bg-white">
       <div
-        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
-      >
+        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <div>
-          <h1 class="text-5xl text-black font-bold mb-5">
-            Financial Services by Paytm
-          </h1>
+          <h1 class="text-5xl text-black font-bold mb-5">Financial Services by Paytm</h1>
         </div>
         <img src="./img/img29.png" alt="image" class="w-52 mt-5" />
-        <h1
-          class="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900 mt-12"
-        >
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900 mt-12">
           India's most sincere <br />
           bank.
         </h1>
@@ -624,32 +513,21 @@
         </p>
         <div class="flex justify-center">
           <button
-            class="ml-0 inline-flex text-white bg-blue py-2 px-6 focus:outline-none rounded-full text-lg"
-          >
+            class="ml-0 inline-flex text-white bg-blue py-2 px-6 focus:outline-none rounded-full text-lg">
             Learn more
-            <img
-              src="./img/arrow-right.png"
-              alt="img"
-              class="w-3 mt-2 ml-3 inline"
-            />
+            <img src="./img/arrow-right.png" alt="img" class="w-3 mt-2 ml-3 inline" />
           </button>
         </div>
       </div>
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-        <img
-          class="object-cover object-center rounded"
-          alt="hero"
-          src="./img/img30.webp"
-        />
+        <img class="object-cover object-center rounded" alt="hero" src="./img/img30.webp" />
       </div>
     </div>
     <!-- Build Long term Wealth & Achieve your Goals. -->
     <div
-      class="mt-10 container mx-auto flex px-5 py-24 md:flex-row-reverse flex-col items-center"
-    >
+      class="mt-10 container mx-auto flex px-5 py-24 md:flex-row-reverse flex-col items-center">
       <div
-        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left md:ml-32 mb-16 md:mb-0 items-center text-center"
-      >
+        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left md:ml-32 mb-16 md:mb-0 items-center text-center">
         <img src="./img/img32.webp" alt="image" class="w-52 mt-5" />
         <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold mt-12">
           Build Long-term <br />
@@ -662,37 +540,22 @@
           help you create wealth & realise your dreams.
         </p>
         <div class="flex justify-center">
-          <button
-            class="inline-flex text-white bg-blue py-2 px-6 rounded-full text-lg"
-          >
+          <button class="inline-flex text-white bg-blue py-2 px-6 rounded-full text-lg">
             Learn more
-            <img
-              src="./img/arrow-right.png"
-              alt="img"
-              class="w-3 mt-3 ml-3 inline"
-            />
+            <img src="./img/arrow-right.png" alt="img" class="w-3 mt-3 ml-3 inline" />
           </button>
         </div>
       </div>
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-        <img
-          class="object-cover object-center rounded"
-          alt="hero"
-          src="img/img31.webp"
-        />
+        <img class="object-cover object-center rounded" alt="hero" src="img/img31.webp" />
       </div>
     </div>
     <!-- Insurance Made Easy -->
-    <div
-      class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
-    >
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
       <div
-        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
-      >
+        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <img src="./img/img33.webp" alt="image" class="w-52 mt-5" />
-        <h1 class="sm:text-4xl text-8xl mb-4 font-bold mt-12">
-          Insurance made easy.
-        </h1>
+        <h1 class="sm:text-4xl text-8xl mb-4 font-bold mt-12">Insurance made easy.</h1>
         <p class="mb-8 leading-relaxed text-xl font-semibold">
           Buying insurance does not have to be tedious, time- <br />
           consuming & confusing. Paytm Insurance removes the <br />
@@ -701,36 +564,22 @@
         </p>
         <div class="flex justify-center">
           <button
-            class="ml-0 inline-flex text-white bg-blue py-2 px-6 focus:outline-none rounded-full text-lg"
-          >
+            class="ml-0 inline-flex text-white bg-blue py-2 px-6 focus:outline-none rounded-full text-lg">
             Learn more
-            <img
-              src="./img/arrow-right.png"
-              alt="img"
-              class="w-3 mt-2 ml-3 inline"
-            />
+            <img src="./img/arrow-right.png" alt="img" class="w-3 mt-2 ml-3 inline" />
           </button>
         </div>
       </div>
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-        <img
-          class="object-cover object-center rounded"
-          alt="hero"
-          src="./img/img34.webp"
-        />
+        <img class="object-cover object-center rounded" alt="hero" src="./img/img34.webp" />
       </div>
     </div>
     <!-- Get a Personal loan in 2 Minutes -->
-    <div
-      class="container mx-auto flex px-12 py-24 md:flex-row-reverse flex-col items-center"
-    >
+    <div class="container mx-auto flex px-12 py-24 md:flex-row-reverse flex-col items-center">
       <div
-        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left md:ml-32 mb-16 md:mb-0 items-center text-center"
-      >
+        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left md:ml-32 mb-16 md:mb-0 items-center text-center">
         <img src="./img/img36.png" alt="image" class="w-52 mt-5" />
-        <h1
-          class="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900 mt-12"
-        >
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900 mt-12">
           Get a Personal Loan in <br />
           2 Minutes.
         </h1>
@@ -741,23 +590,14 @@
         </p>
         <div class="flex justify-center">
           <button
-            class="ml-0 inline-flex text-white bg-blue py-2 px-6 focus:outline-none rounded-full text-lg"
-          >
+            class="ml-0 inline-flex text-white bg-blue py-2 px-6 focus:outline-none rounded-full text-lg">
             Learn more
-            <img
-              src="./img/arrow-right.png"
-              alt="img"
-              class="w-3 mt-2 ml-3 inline"
-            />
+            <img src="./img/arrow-right.png" alt="img" class="w-3 mt-2 ml-3 inline" />
           </button>
         </div>
       </div>
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-        <img
-          class="object-cover object-center rounded"
-          alt="hero"
-          src="./img/img35.webp"
-        />
+        <img class="object-cover object-center rounded" alt="hero" src="./img/img35.webp" />
       </div>
     </div>
     <!-- Business Services by Paytm -->
@@ -767,12 +607,9 @@
         <h1 class="text-5xl font-bold mb-5">Business Services by Paytm</h1>
       </div>
       <!-- Accept payments online with ease -->
-      <div
-        class="container mx-auto flex px-5 py-8 md:flex-row flex-col items-center"
-      >
+      <div class="container mx-auto flex px-5 py-8 md:flex-row flex-col items-center">
         <div
-          class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
-        >
+          class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 class="sm:text-4xl text-3xl mb-4 font-bold mt-12">
             Accept payments <br />
             online with ease
@@ -782,33 +619,20 @@
             powers India’s largest brands and even the Paytm App
           </p>
           <div class="flex justify-center">
-            <button
-              class="inline-flex text-white bg-blue py-2 px-6 rounded-full text-lg"
-            >
+            <button class="inline-flex text-white bg-blue py-2 px-6 rounded-full text-lg">
               Learn more
-              <img
-                src="./img/arrow-right.png"
-                alt="img"
-                class="w-3 mt-2 ml-3 inline"
-              />
+              <img src="./img/arrow-right.png" alt="img" class="w-3 mt-2 ml-3 inline" />
             </button>
           </div>
         </div>
         <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img
-            class="object-cover object-center rounded"
-            alt="hero"
-            src="./img/img37.webp"
-          />
+          <img class="object-cover object-center rounded" alt="hero" src="./img/img37.webp" />
         </div>
       </div>
       <!-- In-shop payments powered by Paytm. -->
-      <div
-        class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
-      >
+      <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div
-          class="lg:flex-grow bg-mywhite md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
-        >
+          class="lg:flex-grow bg-mywhite md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold mt-12">
             In-shop payments <br />
             powered by Paytm.
@@ -820,23 +644,14 @@
           </p>
           <div class="flex justify-center">
             <button
-              class="ml-0 inline-flex text-white bg-blue py-2 px-6 focus:outline-none rounded-full text-lg"
-            >
+              class="ml-0 inline-flex text-white bg-blue py-2 px-6 focus:outline-none rounded-full text-lg">
               Learn more
-              <img
-                src="./img/arrow-right.png"
-                alt="img"
-                class="w-3 mt-2 ml-3 inline"
-              />
+              <img src="./img/arrow-right.png" alt="img" class="w-3 mt-2 ml-3 inline" />
             </button>
           </div>
         </div>
         <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img
-            class="object-cover object-center rounded"
-            alt="hero"
-            src="./img/img38.webp"
-          />
+          <img class="object-cover object-center rounded" alt="hero" src="./img/img38.webp" />
         </div>
       </div>
     </div>
@@ -847,27 +662,16 @@
         your business grow
       </h1>
       <div
-        class="grid grid-cols-1 ml-16 md:ml-0 grid-rows-4 md:grid gap-4 md:grid-cols-4 md:grid-rows-1"
-      >
+        class="grid grid-cols-1 ml-16 md:ml-0 grid-rows-4 md:grid gap-4 md:grid-cols-4 md:grid-rows-1">
         <!-- Card 1 -->
         <div class="max-w-xs rounded-md shadow-md">
-          <img
-            src="./img/img39.webp"
-            alt=""
-            class="object-cover object-center w-full h-72"
-          />
+          <img src="./img/img39.webp" alt="" class="object-cover object-center w-full h-72" />
           <div class="flex flex-col justify-between p-6 space-y-8">
             <div class="space-y-2">
-              <h2 class="text-3xl font-bold tracking-wide">
-                POS Billing Software
-              </h2>
-              <p class="text-black font-bold">
-                Say Hello to Smart Retail Business Management
-              </p>
+              <h2 class="text-3xl font-bold tracking-wide">POS Billing Software</h2>
+              <p class="text-black font-bold">Say Hello to Smart Retail Business Management</p>
             </div>
-            <h1
-              class="flex w-full p-3 font-bold tracking-wide hover:cursor-pointer"
-            >
+            <h1 class="flex w-full p-3 font-bold tracking-wide hover:cursor-pointer">
               Learn More
             </h1>
           </div>
@@ -877,20 +681,15 @@
           <img
             src="./img/img40.webp"
             alt=""
-            class="object-cover object-center w-full rounded-t-md h-72"
-          />
+            class="object-cover object-center w-full rounded-t-md h-72" />
           <div class="flex flex-col justify-between p-6 space-y-8">
             <div class="space-y-2">
-              <h2 class="text-3xl font-bold tracking-wide">
-                Paytm for Business App
-              </h2>
+              <h2 class="text-3xl font-bold tracking-wide">Paytm for Business App</h2>
               <p class="font-bold">
                 Everything you need to manage your business on your phone
               </p>
             </div>
-            <h1
-              class="flex w-full p-3 font-bold tracking-wide hover:cursor-pointer"
-            >
+            <h1 class="flex w-full p-3 font-bold tracking-wide hover:cursor-pointer">
               Learn More
             </h1>
           </div>
@@ -900,21 +699,15 @@
           <img
             src="./img/img41.webp"
             alt=""
-            class="object-cover object-center w-full rounded-t-md h-72"
-          />
+            class="object-cover object-center w-full rounded-t-md h-72" />
           <div class="flex flex-col justify-between p-6 space-y-8">
             <div class="space-y-2">
-              <h2 class="text-3xl font-bold tracking-wide">
-                Advertise on Paytm
-              </h2>
+              <h2 class="text-3xl font-bold tracking-wide">Advertise on Paytm</h2>
               <p class="font-bold">
-                Grow your business by advertising on India’s largest mobile
-                business
+                Grow your business by advertising on India’s largest mobile business
               </p>
             </div>
-            <h1
-              class="flex w-full p-3 font-bold tracking-wide hover:cursor-pointer"
-            >
+            <h1 class="flex w-full p-3 font-bold tracking-wide hover:cursor-pointer">
               Learn More
             </h1>
           </div>
@@ -924,16 +717,13 @@
           <img
             src="./img/img42.webp"
             alt=""
-            class="object-cover object-center w-full rounded-t-md h-72"
-          />
+            class="object-cover object-center w-full rounded-t-md h-72" />
           <div class="flex flex-col justify-between p-6 space-y-8">
             <div class="space-y-2">
               <h2 class="text-3xl font-bold tracking-wide">Business Khata</h2>
               <p class="font-bold">Managing Khata made easy</p>
             </div>
-            <h1
-              class="flex w-full p-3 font-bold tracking-wide hover:cursor-pointer"
-            >
+            <h1 class="flex w-full p-3 font-bold tracking-wide hover:cursor-pointer">
               Learn More
             </h1>
           </div>
@@ -946,54 +736,33 @@
         <div class="w-1/6 p-5 text-center md:text-start mx-auto">
           <img src="img/img32.webp" alt="image" class="w-32 mt-2" />
           <p class="font-semibold mt-5">
-            Get started on wealth creation journey with Zero brokerage fee & no
-            hidden charges.
+            Get started on wealth creation journey with Zero brokerage fee & no hidden charges.
           </p>
           <h1 class="mt-7 textt-xl font-bold text-skyblue">Learn More</h1>
         </div>
-        <div
-          class="relative w-5/6 flex gap-6 py-6 overflow-x-auto ml-10 md:ml-24"
-        >
+        <div class="relative w-5/6 flex gap-6 py-6 overflow-x-auto ml-10 md:ml-24">
           <!-- Card 1 -->
-          <div
-            class="h-60 aspect-video w-40 bg-skyblue rounded-md object-cover object-center"
-          >
+          <div class="h-60 aspect-video w-40 bg-skyblue rounded-md object-cover object-center">
             <img src="./img/img43.webp" alt="image" class="p-2" />
-            <h1 class="text-center text-white text-base font-bold mt-2">
-              Invest in Stocks
-            </h1>
+            <h1 class="text-center text-white text-base font-bold mt-2">Invest in Stocks</h1>
           </div>
           <!-- Card 2 -->
-          <div
-            class="h-60 aspect-video w-40 bg-skyblue rounded-md object-cover object-center"
-          >
+          <div class="h-60 aspect-video w-40 bg-skyblue rounded-md object-cover object-center">
             <img src="./img/img44.webp" alt="image" class="p-2" />
-            <h1 class="text-center text-white text-base font-bold mt-2">
-              Apply fo IPO
-            </h1>
+            <h1 class="text-center text-white text-base font-bold mt-2">Apply fo IPO</h1>
           </div>
           <!-- Card 3 -->
-          <div
-            class="h-60 aspect-video w-40 bg-skyblue rounded-md object-cover object-center"
-          >
+          <div class="h-60 aspect-video w-40 bg-skyblue rounded-md object-cover object-center">
             <img src="./img/img45.webp" alt="image" class="p-2" />
-            <h1 class="text-center text-white text-base font-bold mt-2">
-              invest in ETFs
-            </h1>
+            <h1 class="text-center text-white text-base font-bold mt-2">invest in ETFs</h1>
           </div>
           <!-- Card 4 -->
-          <div
-            class="h-60 aspect-video w-40 bg-skyblue rounded-md object-cover object-center"
-          >
+          <div class="h-60 aspect-video w-40 bg-skyblue rounded-md object-cover object-center">
             <img src="./img/img46.webp" alt="image" class="p-2" />
-            <h1 class="text-center text-white text-base font-bold mt-2">
-              Buy Gold
-            </h1>
+            <h1 class="text-center text-white text-base font-bold mt-2">Buy Gold</h1>
           </div>
           <!-- Card 5 -->
-          <div
-            class="h-60 aspect-video w-40 bg-skyblue rounded-md object-cover object-center"
-          >
+          <div class="h-60 aspect-video w-40 bg-skyblue rounded-md object-cover object-center">
             <img src="img/img47.webp" alt="image" class="p-2" />
             <h1 class="text-center text-white text-base font-bold mt-2">
               invest in Mutial Funds
@@ -1002,28 +771,20 @@
         </div>
       </div>
       <!-- Paytm Travel cards -->
-      <div
-        class="relative container mt-12 mx-auto fle flex-col md:flex md:flex-row"
-      >
+      <div class="relative container mt-12 mx-auto fle flex-col md:flex md:flex-row">
         <div class="w-1/6 p-5 text-center md:text-start mx-auto">
           <img src="./img/img48.webp" alt="image" class="w-32 mt-2" />
           <p class="font-semibold mt-5">
-            Best travel solutions with quick ticket bookings, great offers and
-            easy refunds
+            Best travel solutions with quick ticket bookings, great offers and easy refunds
           </p>
           <h1 class="mt-7 textt-xl font-bold text-skyblue">Learn More</h1>
         </div>
-        <div
-          class="relative w-5/6 flex gap-6 py-6 overflow-x-auto ml-10 md:ml-24"
-        >
+        <div class="relative w-5/6 flex gap-6 py-6 overflow-x-auto ml-10 md:ml-24">
           <!-- Card 1 -->
           <div
-            class="h-60 aspect-video w-40 bg-skyblue rounded-md object-cover object-center text-white"
-          >
+            class="h-60 aspect-video w-40 bg-skyblue rounded-md object-cover object-center text-white">
             <img src="./img/img49.webp" alt="image" class="p-8" />
-            <h1 class="text-center text-base font-bold mt-1">
-              Flat 14% Cashback
-            </h1>
+            <h1 class="text-center text-base font-bold mt-1">Flat 14% Cashback</h1>
             <p class="text-center text-xs">
               With Code <br />
               WELCOMEFIGHT
@@ -1031,8 +792,7 @@
           </div>
           <!-- Card 2 -->
           <div
-            class="h-60 aspect-video w-40 bg-skyblue rounded-md object-cover object-center text-white"
-          >
+            class="h-60 aspect-video w-40 bg-skyblue rounded-md object-cover object-center text-white">
             <img src="img/img50.webp" alt="image" class="p-8" />
             <h1 class="text-center text-base font-bold mt-1">100% Refund</h1>
             <p class="text-center text-xs">
@@ -1042,18 +802,14 @@
           </div>
           <!-- Card 3 -->
           <div
-            class="h-60 aspect-video w-40 bg-skyblue rounded-md object-cover object-center text-white"
-          >
+            class="h-60 aspect-video w-40 bg-skyblue rounded-md object-cover object-center text-white">
             <img src="./img/img51.webp" alt="image" class="p-8" />
-            <h1 class="text-center text-base font-bold mt-1">
-              Flat 10% Cashback
-            </h1>
+            <h1 class="text-center text-base font-bold mt-1">Flat 10% Cashback</h1>
             <p class="text-center text-xs">With Code HAPPYBUS</p>
           </div>
           <!-- Card 4 -->
           <div
-            class="h-60 aspect-video w-40 bg-skyblue rounded-md object-cover object-center text-white"
-          >
+            class="h-60 aspect-video w-40 bg-skyblue rounded-md object-cover object-center text-white">
             <img src="./img/img52.webp" alt="image" class="p-8" />
             <h1 class="text-center text-base font-bold mt-1">
               Sanitised Bus Options With TravelSafe+
@@ -1061,8 +817,7 @@
           </div>
           <!-- Card 5 -->
           <div
-            class="h-60 aspect-video w-40 bg-skyblue rounded-md object-cover object-center text-white"
-          >
+            class="h-60 aspect-video w-40 bg-skyblue rounded-md object-cover object-center text-white">
             <img src="./img/img53.webp" alt="image" class="p-8" />
             <h1 class="text-center text-base font-bold mt-1">
               Hassle Free Train Ticket bookings
@@ -1070,8 +825,7 @@
           </div>
           <!-- Card 6 -->
           <div
-            class="h-60 aspect-video w-40 bg-skyblue rounded-md object-cover object-center text-white"
-          >
+            class="h-60 aspect-video w-40 bg-skyblue rounded-md object-cover object-center text-white">
             <img src="./img/img54.webp" alt="image" class="p-8" />
             <h1 class="text-center text-base font-bold mt-1">
               PNR Status Check In Few Simple Clicks
@@ -1083,11 +837,8 @@
     <!-- Footer -->
     <footer class="mt-40">
       <div
-        class="container px-5 py-8 mx-auto hover:cursor-pointer flex items-center sm:flex-row flex-col"
-      >
-        <a
-          class="flex title-font font-medium items-center md:justify-start justify-center"
-        >
+        class="container px-5 py-8 mx-auto hover:cursor-pointer flex items-center sm:flex-row flex-col">
+        <a class="flex title-font font-medium items-center md:justify-start justify-center">
           <span class="ml-3 text-xl font-bold"
             >Download Paytm App <br />
             to Pay from anywhere</span
@@ -1095,9 +846,7 @@
         </a>
         <img src="./img/img55.svg" alt="" class="ml-10" />
         <img src="./img/img56.svg" alt="" class="ml-5" />
-        <span
-          class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"
-        >
+        <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <a class="">
             <svg
               fill="currentColor"
@@ -1105,11 +854,8 @@
               stroke-linejoin="round"
               stroke-width="2"
               class="w-8 h-8"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
-              ></path>
+              viewBox="0 0 24 24">
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
             </svg>
           </a>
           <a class="ml-3">
@@ -1119,11 +865,9 @@
               stroke-linejoin="round"
               stroke-width="2"
               class="w-8 h-8"
-              viewBox="0 0 24 24"
-            >
+              viewBox="0 0 24 24">
               <path
-                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
-              ></path>
+                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
             </svg>
           </a>
           <a class="ml-3">
@@ -1134,12 +878,9 @@
               stroke-linejoin="round"
               stroke-width="2"
               class="w-8 h-8"
-              viewBox="0 0 24 24"
-            >
+              viewBox="0 0 24 24">
               <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-              <path
-                d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"
-              ></path>
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
             </svg>
           </a>
         </span>
